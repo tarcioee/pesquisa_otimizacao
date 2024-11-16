@@ -1,3 +1,0 @@
-dim 3
-obj - - +
-unify no
