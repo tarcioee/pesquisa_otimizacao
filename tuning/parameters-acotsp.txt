@@ -1,0 +1,8 @@
+### Parameter file for the ACOTSP software
+# name       switch           type values               [conditions (using R syntax)]
+# algorithm    "--"             c    (as,mmas,eas,ras,acs)
+mutation "--mutation " i (1,99)
+crossover "--crossover " i (1,99)
+scalingFactor "--scalingFactor " r (0.1,5.0)
+kappa "--kappa " r (0.01,0.1)
+rho "--rho " r (0.1,2.0)
