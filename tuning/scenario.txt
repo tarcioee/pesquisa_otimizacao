@@ -13,7 +13,7 @@ execDir = "./acotsp-arena"
 
 ## Directory where tuning instances are located, either absolute path or
 ## relative to current directory.
-trainInstancesDir = "./Instances"
+.trainInstancesDir = "./Instances"
 
 trainInstancesFile = "./instances-list.txt"
 
@@ -29,13 +29,13 @@ maxExperiments = 1000
 ## File that contains a list of logical expressions that cannot be TRUE
 ## for any evaluated configuration. If empty or NULL, do not use forbidden
 ## expressions.
-forbiddenFile = "forbidden.txt"
+.forbiddenFile = "forbidden.txt"
 
 targetRunner = "./target-runner.bat"
 
 ## Indicates the number of decimal places to be considered for the
 ## real parameters.
-digits = 2
+.digits = 2
 
 ## A value of 0 silences all debug messages. Higher values provide
 ## more verbose debug messages.
